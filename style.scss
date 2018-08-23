@@ -1,17 +1,12 @@
 html { background: #39a; }
-.container {
+.main_menu {
   position: relative;
   margin: 0 auto;
   width: 94%;
   max-width: 1100px;
   font-family: helvetica, sans-serif;
 }
-.content {
-  position: relative;
-  padding-top: 80px;
-  p { margin-bottom: 10px; }
-}
-#header {
+#menu {
   z-index: 2;
   position: fixed;
   width: 100%;
@@ -44,8 +39,8 @@ html { background: #39a; }
 }
 
 @media (max-width: 599px) {
-  #header {
-    .container { width: 100%; }
+  #menu {
+    .main_menu { width: 100%; }
     h1 {
       left: 3%;
     }

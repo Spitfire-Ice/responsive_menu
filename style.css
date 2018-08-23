@@ -1,20 +1,14 @@
 html {
   background: #39a; }
 
-.container {
+.main_menu {
   position: relative;
   margin: 0 auto;
   width: 94%;
   max-width: 1100px;
   font-family: helvetica, sans-serif; }
 
-.content {
-  position: relative;
-  padding-top: 80px; }
-  .content p {
-    margin-bottom: 10px; }
-
-#header {
+#menu {
   z-index: 2;
   position: fixed;
   width: 100%;
@@ -22,7 +16,7 @@ html {
   line-height: 60px;
   background: #222;
   color: white; }
-  #header h1 {
+  #menu h1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -40,9 +34,9 @@ html {
       padding: 0 10px; }
 
 @media (max-width: 599px) {
-  #header .container {
+  #menu .main_menu {
     width: 100%; }
-  #header h1 {
+  #menu h1 {
     left: 3%; }
 
   #nav {
